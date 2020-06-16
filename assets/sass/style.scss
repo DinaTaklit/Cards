@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+h1 {
+  font-size: 62px;
+}
+h3 {
+  text-align: center;
+  color: #999;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/*******************/
+/****** Card1 ******/
+/*******************/
+#card1 {
+  line-height: 1.7;
+  color: gray;
+  font-weight: 300;
+  .course-1-item {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    figure {
+      position: relative;
+    }
+    .category {
+      background: #51be78;
+      padding: 20px;
+      h3 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+    }
+    .price {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      -webkit-transform: translatey(-100%);
+      -ms-transform: translatey(-100%);
+      transform: translatey(-100%);
+      padding: 10px 20px;
+      background: #183661;
+      color: #fff;
+    }
+
+    .course-1-content {
+      padding: 20px 40px;
+      text-align: center;
+      h2 {
+        margin: 0 0 30px 0;
+        font-size: 18px;
+        color: #000;
+      }
+      .rating {
+        text-align: center;
+        & > span {
+            display: inline-block;
+            margin: 2px;
+          }
+      }
+      .desc {
+        font-size: 15px;
+      }
+    }
+    .btn-primary{
+        background: #51be78;
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+  }
+}
+
+/*******************/
+/****** /Card1 ******/
+/*******************/
