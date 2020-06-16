@@ -79,5 +79,61 @@ h3 {
 /*******************/
 /****** /Card1 ******/
 /*******************/
+/*******************/
+/****** Card2 ******/
+/*******************/
+#card2 .thumbnail {
+  line-height: 1.4;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: relative;
+}
+#card2 .thumbnail .ld_course_grid_price {
+  background: #5cb85c;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  font-size: 14px;
+  left: -8px;
+  top: 10px;
+  padding: 3px 10px;
+  z-index: 2;
+  font-weight: 700;
+}
+#card2 .thumbnail img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+#card2 .thumbnail .caption {
+  padding: 15px;
+  position: relative;
+  color: #333;
+}
+#card2 .thumbnail .caption .entry-title {
+  font-size: 1.375rem;
+}
+#card2 .thumbnail .caption .ld_course_grid_button .btn-primary {
+  width: 100%;
+}
+#card2 .thumbnail .caption .progress {
+  height: 6px;
+}
+#card2 .thumbnail .caption .progress-title {
+  float: right;
+  margin: 0.25em 0;
+  color: #2084e3;
+  font-size: 0.75em;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+/*******************/
+/****** /Card2 ******/
+/*******************/
 
 /*# sourceMappingURL=style.css.map */
